@@ -4164,6 +4164,13 @@ libmysqlclient-dev:
   macports: [mysql5]
   opensuse: [libmysqlclient-devel]
   ubuntu: [libmysqlclient-dev]
+libmysqlcppconn7v5:
+  debian: [libmysqlcppconn7v5]
+  gentoo: [dev-db/mysql-connector-c++]
+  ubuntu:
+    bionic: [libmysqlcppconn7v5]
+    focal: [libmysqlcppconn7v5]
+    jammy: [libmysqlcppconn7v5]
 libmysqlcppconn-dev:
   arch:
     aur: [mysql-connector-c++]
